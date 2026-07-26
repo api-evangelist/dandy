@@ -1,0 +1,21 @@
+{
+  "repo": "dandy",
+  "feeds": [
+    {
+      "source": "https://www.meetdandy.com/feed/",
+      "feed_url": "https://www.meetdandy.com/comments/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.meetdandy.com/",
+      "feed_url": "https://www.meetdandy.com/comments/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}

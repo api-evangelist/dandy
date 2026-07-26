@@ -1,7 +1,31 @@
 aid: dandy
 name: Dandy
-description: Dandy is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Dandy is a digital dental lab platform for dentists, dental practices, and
+  dental service organizations (DSOs). It combines intraoral scanner hardware,
+  cloud-based case management software, and in-house dental lab manufacturing
+  into a single scan-to-lab workflow. Dentists capture digital impressions with
+  a Dandy intraoral scanner, submit cases through Dandy software, collaborate in
+  real time with lab technicians via chat, video, and chairside scan review, and
+  receive finished restorations manufactured by Dandy. Product lines include
+  crowns, bridges, implants, clear aligners, retainers, dentures, night guards,
+  splints, and sleep apnea devices. Dandy positions itself as an AI-powered
+  digital dental lab modernizing restorative and orthodontic dentistry. It was
+  surfaced as a portfolio company of General Catalyst and added to the API
+  Evangelist network; the company publishes an agent-facing llms.txt and
+  ai-index.json but does not currently expose a public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://logo.clearbit.com/meetdandy.com
 url: https://raw.githubusercontent.com/api-evangelist/dandy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dental
+- Digital Dentistry
+- Dental Lab
+- Healthcare
+- Health Tech
+- Intraoral Scanners
+- Orthodontics
+- Manufacturing
+- DSO
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dandy-domain-security.yml
+- type: Website
+  url: https://www.meetdandy.com/
+- type: Blog
+  url: https://www.meetdandy.com/blog
+- type: Pricing
+  url: https://www.meetdandy.com/pricing/
+- type: SignUp
+  url: https://www.meetdandy.com/get-started/
+- type: Login
+  url: https://practice.meetdandy.com/
+- type: Support
+  url: https://www.meetdandy.com/get-in-touch/
+- type: HelpCenter
+  url: https://www.meetdandy.com/learning-center/
+- type: TermsOfService
+  url: https://www.meetdandy.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.meetdandy.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/dandy-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
