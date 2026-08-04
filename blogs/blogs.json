@@ -2,20 +2,20 @@
   "repo": "dandy",
   "feeds": [
     {
-      "source": "https://www.meetdandy.com/feed/",
+      "source": "https://www.meetdandy.com/comments/feed/",
       "feed_url": "https://www.meetdandy.com/comments/feed/",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://www.meetdandy.com/",
-      "feed_url": "https://www.meetdandy.com/comments/feed/",
+      "feed_url": "https://www.meetdandy.com/feed/",
       "title": "",
-      "saved": 0,
+      "saved": 1,
       "method": "discovered"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 2,
+  "fetched": "2026-08-01T15:49:00Z"
 }
